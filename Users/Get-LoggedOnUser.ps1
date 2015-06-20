@@ -1,3 +1,10 @@
+##   		Get-LoggedOnUser
+##   parameters => 	Hostname of a computer bound to your domain
+##   method 	=> 	Checks the owner of the explorer.exe process
+##   returns 	=> 	Returns the name of the owner of the explorer.exe process
+##   example	=>	Get-LoggedOnUser computerXXX
+
+
 Function Get-LoggedOnUser{
 param(
     [Parameter(Mandatory=$true, 
